@@ -1,0 +1,28 @@
+{
+  "name": "nodejwt",
+  "version": "1.0.0",
+  "description": "> Criando api simples com login para estudos de token, utilizando node",
+  "main": "index.js",
+  "scripts": {
+    "test": "SET NODE_ENV=dev&& nodemon ./api/index.js",
+    "start": "node ./api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugobernardoni/estudos-alura-jwt-node.git"
+  },
+  "author": "Hugo Bernardoni Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugobernardoni/estudos-alura-jwt-node/issues"
+  },
+  "homepage": "https://github.com/hugobernardoni/estudos-alura-jwt-node#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0"
+  }
+}
